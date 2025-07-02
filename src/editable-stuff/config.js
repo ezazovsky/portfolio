@@ -66,9 +66,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "ezazovsky", //i.e."johnDoe12Gh"
+  reposLength: 2,
+  specificRepos: ["Ai-News-App", "portfolio"],
 };
 
 // Leadership SECTION
@@ -126,8 +126,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I am currently looking for internships for the summer of 2026! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "ezazovsky@gmail.com",
 };
 
 const experiences = {
