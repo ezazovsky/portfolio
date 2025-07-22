@@ -68,7 +68,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "ezazovsky", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["Ai-News-App", "portfolio", "zsky-solutions", "zsky-backend"],
+  specificRepos: ["zsky-solutions", "zsky-backend", "Ai-News-App", "portfolio"],
 };
 
 // Leadership SECTION
