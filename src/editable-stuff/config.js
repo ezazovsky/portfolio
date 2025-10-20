@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/HeadShotCrop.jpg"),
   imageSize: 375,
   message:
-    "My name is Eric Zazovsky. I’m a Junior Math and Computer Science major at the University of Texas at Austin. My favorite aspects of programming are building new and cool toys and solving complex problems. I am most interested in web development, cyber secuirity, and machine learning. I code in Python, Java, JavaScript and I am looking for internships to gain experience and take my skills to new heights!",
+    "My name is Eric Zazovsky. I’m a Junior Math and Computer Science major at the University of Texas at Austin. My favorite aspects of programming are building new and cool toys and solving complex problems. I am most interested in web development, cybersecurity, and machine learning. I code in Python, Java, JavaScript and I am looking for internships to gain experience and take my skills to new heights!",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -68,7 +68,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "ezazovsky", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["zsky-solutions", "zsky-backend", "Ai-News-App", "portfolio"],
+  specificRepos: ["zsky-solutions", "zsky-backend", "Ai-News-App", "portfolio", "Toyota-Financial"],
 };
 
 // Leadership SECTION
