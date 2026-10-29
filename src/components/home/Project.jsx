@@ -36,7 +36,9 @@ const Project = ({ heading, username, length, specfic }) => {
       // adding specified repos
       try {
         for (let repoName of specfic) {
-          const response = await axios.get(`${specficReposAPI}/${repoName}`);
+          // "owner/repo" entries fetch repos owned by another account
+          const url = repoName.includes("/") ? `${API}/repos/${repoName}` : `${specficReposAPI}/${repoName}`;
+          const response = await axios.get(url);
           repoList.push(response.data);
         }
       } catch (error) {
