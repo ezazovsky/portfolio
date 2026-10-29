@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/HeadShotCrop.jpg"),
   imageSize: 375,
   message:
-    "My name is Eric Zazovsky. I’m a Junior Math and Computer Science major at the University of Texas at Austin. My favorite aspects of programming are building new and cool toys and solving complex problems. I am most interested in web development, cybersecurity, and machine learning. I code in Python, Java, JavaScript and I am looking for internships to gain experience and take my skills to new heights!",
+    "My name is Eric Zazovsky. I’m a senior pursuing a B.S. in Computer Science and a B.S. in Mathematics at the University of Texas at Austin (expected May 2027, GPA 3.78). Most recently I was a Software Engineering Intern on the Cloud Growth team at Confluent, an IBM Company, where I shipped an in-product survey platform and A/B-tested growth experiments in React Redux/TypeScript. Before that I built a HIPAA-compliant patient care portal at Thrive Education, and I work on robot learning and teleoperation research at UT. I code in Java, Python, C/C++, JavaScript and TypeScript, and I love building cool things and solving hard problems.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -101,13 +101,13 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "Java", value: 85 },
     { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "TypeScript", value: 85 },
+    { name: "React Redux", value: 85 },
+    { name: "C/C++", value: 70 },
+    { name: "Spring Boot", value: 70 },
+    { name: "Docker / AWS", value: 70 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,23 +126,28 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I am currently looking for internships for the summer of 2026! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I am currently looking for full-time new grad software engineering roles starting in 2027! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "ezazovsky@gmail.com",
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Experience",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      company: "Confluent, an IBM Company",
+      role: "Software Engineering Intern, Cloud Growth",
+      date: "May 2026 – August 2026",
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      company: "Thrive Education",
+      role: "Full-Stack Software Engineering Intern",
+      date: "November 2024 – May 2026",
+    },
+    {
+      company: "University of Texas at Austin",
+      role: "Peer Mentor, Freshman Research Initiative",
+      date: "January 2024 – May 2026",
     },
   ]
 }
